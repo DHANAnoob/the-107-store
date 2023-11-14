@@ -1627,6 +1627,8 @@ body {padding-right: 0px !important;}
   background-color: #ec1d25;
 }
 
+/* Baker Css */
+
 /* Css Added */
 .fuelContimg img{
   /* border-radius: 30px; */
@@ -1691,4 +1693,8 @@ body {padding-right: 0px !important;}
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+.delicatessanProduct{
+  background-color: #d61c22;
 }
