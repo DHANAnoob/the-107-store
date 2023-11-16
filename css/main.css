@@ -1698,16 +1698,6 @@ body {padding-right: 0px !important;}
 .delicatessanProduct{
   background-color: #d61c22;
 }
-
-/* .ftco-animated {
-  -webkit-animation-duration: .5s;
-  animation-duration: .5s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-} */
-/* .ftco-animate {
-  opacity: 0;
-  visibility: hidden; } */
   .sort {
     text-align: center;
   }
@@ -1718,14 +1708,30 @@ body {padding-right: 0px !important;}
 }
 
 .circle-img {
-  width: 200px;
-  height: 200px; 
+  width: 150px;
+  height: 150px; 
   border-radius: 50%;
   object-fit: cover; 
   display: block;
   margin: 0 auto;
   border: 2px solid #3498db; 
   padding: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.circle-img:hover{
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+.drinksCont{
+  color: #d61c22 !important;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 1.2;
+  /* color: #222222; */
+  text-transform: uppercase;
+  letter-spacing: 3px;
 }
 
 
