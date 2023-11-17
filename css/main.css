@@ -1421,12 +1421,14 @@ body {padding-right: 0px !important;}
 */
 .bg-title-page {
   width: 100%;
-  min-height: 545px;
+  /* min-height: 545px; */
+  height: 70vh;
   padding-left: 15px;
   padding-right: 15px;
   background-repeat: no-repeat;
   background-position: center 0;
   background-size: cover;
+  /* object-fit: ; */
 }
 
 @media (max-width: 576px) {
@@ -1733,5 +1735,7 @@ body {padding-right: 0px !important;}
   text-transform: uppercase;
   letter-spacing: 3px;
 }
-
-
+.fuelMap{
+  height: 100%;
+  width: auto;
+}
