@@ -1632,10 +1632,14 @@ body {padding-right: 0px !important;}
 /* Baker Css */
 
 /* Css Added */
+/* .fuelContimg{
+  height: 100%;
+  width: 100%;
+} */
 .fuelContimg img{
   /* border-radius: 30px; */
-  height: 70%;
-  width: 80%;
+  height: 100%;
+  width: 100%;
   object-fit: cover;
 }
 /* .overimgCont {
@@ -1739,3 +1743,13 @@ body {padding-right: 0px !important;}
   height: 100%;
   width: auto;
 }
+.deliCards img{
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+/* .drinksImg{
+  height: 100%;
+  width: 100%;
+  object-fit: contain !important;
+} */
