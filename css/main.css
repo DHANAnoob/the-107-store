@@ -1761,3 +1761,9 @@ body {padding-right: 0px !important;}
   height: 40vh;
   width: 100%;
 }
+.onfb{
+  border-radius: 7px;
+}
+/* .onfb a:hover{
+  background-color: #808080;
+} */
