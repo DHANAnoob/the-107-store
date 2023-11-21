@@ -1764,6 +1764,7 @@ body {padding-right: 0px !important;}
 .onfb{
   border-radius: 7px;
 }
-/* .onfb a:hover{
-  background-color: #808080;
-} */
+.fbpost{
+  max-width: 500px !important;
+  min-height: 400px !important ;
+}
